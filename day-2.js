@@ -48,6 +48,15 @@ getCharmanderData();
 
 // TODO: Write your function here to fetch and log Squirtle's name and base experience
 
+async function getSquirtleData() {
+  const url = "https://pokeapi.co/api/v2/pokemon/7";
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log("Name:", data.name);
+  console.log("Base Experience:", data.base_experience);
+}
+
+getSquirtleData();
 
 // EXERCISE 2: Fetch and Log the Name and Types of Pikachu
 
@@ -57,6 +66,15 @@ getCharmanderData();
 
 // TODO: Write your function here to fetch and log Pikachu's name and types
 
+async function getPikachuData() {
+  const url = "https://pokeapi.co/api/v2/pokemon/25";
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log("Name:", data.name);
+  console.log("Types:", data.types);
+}
+
+getPikachuData();
 
 // EXERCISE 3: Fetch and Log the Name and Weight of Jigglypuff
 
@@ -66,6 +84,15 @@ getCharmanderData();
 
 // TODO: Write your function here to fetch and log Jigglypuff's name and weight
 
+async function getJigglypuffData() {
+  const url = "https://pokeapi.co/api/v2/pokemon/39";
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log("Name:", data.name);
+  console.log("Weight:", data.weight);
+}
+
+getJigglypuffData();
 
 // EXERCISE 4: Fetch and Log the Name, Height, and Weight of Meowth
 
@@ -75,6 +102,16 @@ getCharmanderData();
 
 // TODO: Write your function here to fetch and log Meowth's name, height, and weight
 
+async function getMeowthData() {
+  const url = "https://pokeapi.co/api/v2/pokemon/52";
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log("Name:", data.name);
+  console.log("Height:", data.height);
+  console.log("Weight:", data.weight);
+}
+
+getMeowthData();
 
 // EXERCISE 5: Fetch and Log the Name and Abilities of Eevee
 
@@ -84,6 +121,17 @@ getCharmanderData();
 
 // TODO: Write your function here to fetch and log Eevee's name and abilities
 
+async function getEeveeData() {
+  const url = "https://pokeapi.co/api/v2/pokemon/133";
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log("Name:", data.name);
+  for (let i = 0; i < data.abilities.length; i++) {
+    console.log("Abilities", data.abilities[i].ability.name)
+  }
+}
+
+getEeveeData();
 
 // Summary:
 // These exercises help you practice using `fetch` and `async/await` to interact with a RESTful API, specifically the Pokémon API.
