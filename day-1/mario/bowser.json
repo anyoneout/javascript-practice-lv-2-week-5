@@ -1,0 +1,244 @@
+{
+  "amiibo": [
+    {
+      "amiiboSeries": "Skylanders",
+      "character": "Bowser",
+      "gameSeries": "Super Mario",
+      "head": "0005ff00",
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_0005ff00-023a0702.png",
+      "name": "Hammer Slam Bowser",
+      "release": {
+        "au": "2015-09-24",
+        "eu": "2015-09-25",
+        "jp": null,
+        "na": "2015-09-20"
+      },
+      "tail": "023a0702",
+      "type": "Figure"
+    },
+    {
+      "amiiboSeries": "Super Mario Bros.",
+      "character": "Bowser",
+      "gameSeries": "Super Mario",
+      "head": "00050000",
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00050000-03730102.png",
+      "name": "Bowser - Wedding",
+      "release": {
+        "au": "2017-10-27",
+        "eu": "2017-10-27",
+        "jp": "2017-10-27",
+        "na": "2017-10-27"
+      },
+      "tail": "03730102",
+      "type": "Figure"
+    },
+    {
+      "amiiboSeries": "Mario Sports Superstars",
+      "character": "Bowser Jr.",
+      "gameSeries": "Mario Sports Superstars",
+      "head": "09ca0501",
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09ca0501-029f0e02.png",
+      "name": "Bowser Jr. - Horse Racing",
+      "release": {
+        "au": "2017-03-11",
+        "eu": "2017-03-10",
+        "jp": "2017-03-30",
+        "na": "2017-03-24"
+      },
+      "tail": "029f0e02",
+      "type": "Card"
+    },
+    {
+      "amiiboSeries": "Super Smash Bros.",
+      "character": "Bowser",
+      "gameSeries": "Super Mario",
+      "head": "00050000",
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00050000-00140002.png",
+      "name": "Bowser",
+      "release": {
+        "au": "2015-01-29",
+        "eu": "2015-01-23",
+        "jp": "2015-01-22",
+        "na": "2015-02-01"
+      },
+      "tail": "00140002",
+      "type": "Figure"
+    },
+    {
+      "amiiboSeries": "Super Smash Bros.",
+      "character": "Bowser Jr.",
+      "gameSeries": "Super Mario",
+      "head": "00060000",
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00060000-00150002.png",
+      "name": "Bowser Jr.",
+      "release": {
+        "au": "2015-07-23",
+        "eu": "2015-07-17",
+        "jp": "2015-07-17",
+        "na": "2015-09-11"
+      },
+      "tail": "00150002",
+      "type": "Figure"
+    },
+    {
+      "amiiboSeries": "Mario Sports Superstars",
+      "character": "Bowser",
+      "gameSeries": "Mario Sports Superstars",
+      "head": "09c90101",
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c90101-02960e02.png",
+      "name": "Bowser - Soccer",
+      "release": {
+        "au": "2017-03-11",
+        "eu": "2017-03-10",
+        "jp": "2017-03-30",
+        "na": "2017-03-24"
+      },
+      "tail": "02960e02",
+      "type": "Card"
+    },
+    {
+      "amiiboSeries": "Mario Sports Superstars",
+      "character": "Bowser Jr.",
+      "gameSeries": "Mario Sports Superstars",
+      "head": "09ca0301",
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09ca0301-029d0e02.png",
+      "name": "Bowser Jr. - Tennis",
+      "release": {
+        "au": "2017-03-11",
+        "eu": "2017-03-10",
+        "jp": "2017-03-30",
+        "na": "2017-03-24"
+      },
+      "tail": "029d0e02",
+      "type": "Card"
+    },
+    {
+      "amiiboSeries": "Mario Sports Superstars",
+      "character": "Bowser",
+      "gameSeries": "Mario Sports Superstars",
+      "head": "09c90501",
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c90501-029a0e02.png",
+      "name": "Bowser - Horse Racing",
+      "release": {
+        "au": "2017-03-11",
+        "eu": "2017-03-10",
+        "jp": "2017-03-30",
+        "na": "2017-03-24"
+      },
+      "tail": "029a0e02",
+      "type": "Card"
+    },
+    {
+      "amiiboSeries": "Mario Sports Superstars",
+      "character": "Bowser",
+      "gameSeries": "Mario Sports Superstars",
+      "head": "09c90401",
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c90401-02990e02.png",
+      "name": "Bowser - Golf",
+      "release": {
+        "au": "2017-03-11",
+        "eu": "2017-03-10",
+        "jp": "2017-03-30",
+        "na": "2017-03-24"
+      },
+      "tail": "02990e02",
+      "type": "Card"
+    },
+    {
+      "amiiboSeries": "Mario Sports Superstars",
+      "character": "Bowser",
+      "gameSeries": "Mario Sports Superstars",
+      "head": "09c90301",
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c90301-02980e02.png",
+      "name": "Bowser - Tennis",
+      "release": {
+        "au": "2017-03-11",
+        "eu": "2017-03-10",
+        "jp": "2017-03-30",
+        "na": "2017-03-24"
+      },
+      "tail": "02980e02",
+      "type": "Card"
+    },
+    {
+      "amiiboSeries": "Mario Sports Superstars",
+      "character": "Bowser Jr.",
+      "gameSeries": "Mario Sports Superstars",
+      "head": "09ca0401",
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09ca0401-029e0e02.png",
+      "name": "Bowser Jr. - Golf",
+      "release": {
+        "au": "2017-03-11",
+        "eu": "2017-03-10",
+        "jp": "2017-03-30",
+        "na": "2017-03-24"
+      },
+      "tail": "029e0e02",
+      "type": "Card"
+    },
+    {
+      "amiiboSeries": "Mario Sports Superstars",
+      "character": "Bowser Jr.",
+      "gameSeries": "Mario Sports Superstars",
+      "head": "09ca0201",
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09ca0201-029c0e02.png",
+      "name": "Bowser Jr. - Baseball",
+      "release": {
+        "au": "2017-03-11",
+        "eu": "2017-03-10",
+        "jp": "2017-03-30",
+        "na": "2017-03-24"
+      },
+      "tail": "029c0e02",
+      "type": "Card"
+    },
+    {
+      "amiiboSeries": "Mario Sports Superstars",
+      "character": "Bowser",
+      "gameSeries": "Mario Sports Superstars",
+      "head": "09c90201",
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09c90201-02970e02.png",
+      "name": "Bowser - Baseball",
+      "release": {
+        "au": "2017-03-11",
+        "eu": "2017-03-10",
+        "jp": "2017-03-30",
+        "na": "2017-03-24"
+      },
+      "tail": "02970e02",
+      "type": "Card"
+    },
+    {
+      "amiiboSeries": "Super Mario Bros.",
+      "character": "Bowser",
+      "gameSeries": "Super Mario",
+      "head": "00050000",
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_00050000-00390102.png",
+      "name": "Bowser",
+      "release": {
+        "au": "2015-03-21",
+        "eu": "2015-03-20",
+        "jp": "2015-03-12",
+        "na": "2015-03-20"
+      },
+      "tail": "00390102",
+      "type": "Figure"
+    },
+    {
+      "amiiboSeries": "Mario Sports Superstars",
+      "character": "Bowser Jr.",
+      "gameSeries": "Mario Sports Superstars",
+      "head": "09ca0101",
+      "image": "https://raw.githubusercontent.com/N3evin/AmiiboAPI/master/images/icon_09ca0101-029b0e02.png",
+      "name": "Bowser Jr. - Soccer",
+      "release": {
+        "au": "2017-03-11",
+        "eu": "2017-03-10",
+        "jp": "2017-03-30",
+        "na": "2017-03-24"
+      },
+      "tail": "029b0e02",
+      "type": "Card"
+    }
+  ]
+}
