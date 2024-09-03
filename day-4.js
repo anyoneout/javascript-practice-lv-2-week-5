@@ -135,7 +135,6 @@ async function fetchPokemonByIds2(pokemonId2) {
   for (let i = 0; i < data.abilities.length; i++) {
     console.log(`Ability: ${data.abilities[i].ability.name}`);
   }
-  console.log(`\n`);
 }
 
 fetchPokemonByIds2(21);
