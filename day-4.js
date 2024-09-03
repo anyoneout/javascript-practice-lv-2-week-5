@@ -91,8 +91,9 @@ async function fetchTypeById(typeId) {
   const url = `https://pokeapi.co/api/v2/type/${typeId}`;
   const response = await fetch(url);
   const data = await response.json();
+  const damRel = data.damage_relations;
   console.log(`Type Name:`, data.name);
-  console.log(`Damage Relations:`, data.damage_relations);
+  console.log(`Damage Relations:`, Object.keys(damRel));
   console.log(`\n`);
 }
 
@@ -135,6 +136,7 @@ async function fetchPokemonByIds2(pokemonId2) {
   for (let i = 0; i < data.abilities.length; i++) {
     console.log(`Ability: ${data.abilities[i].ability.name}`);
   }
+  console.log(`\n`);
 }
 
 fetchPokemonByIds2(21);
