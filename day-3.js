@@ -46,6 +46,14 @@ getFirstBerryName();
 
 // TODO: Write your function here to fetch and log the name of the second Pokémon
 
+async function getSecondPokemonName() {
+  const url = "https://pokeapi.co/api/v2/pokemon/2"; 
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log("Second Pokemon Name:", data.name);
+}
+
+getSecondPokemonName();
 
 // EXERCISE 2: Fetch and Log the Flavor of the First Berry
 
@@ -56,6 +64,14 @@ getFirstBerryName();
 
 // TODO: Write your function here to fetch and log the flavor of the first Berry
 
+async function getFirstBerryFlavor() {
+  const url = "https://pokeapi.co/api/v2/berry/1";
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log("First Berry Flavor:", data.flavors[0].flavor.name);
+}
+
+getFirstBerryFlavor();
 
 // EXERCISE 3: Fetch and Log the Name and Effect of the First Ability
 
@@ -66,6 +82,15 @@ getFirstBerryName();
 
 // TODO: Write your function here to fetch and log the name and effect of the first Ability
 
+async function getFirstAbility() {
+  const url = "https://pokeapi.co/api/v2/ability/1"; 
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log("First Ability Name:", data.name);
+  console.log("First Ability Effect:", data.effect_entries[1].effect);
+}
+
+getFirstAbility();
 
 // EXERCISE 4: Fetch and Log the Name and Color of the First Item
 
@@ -76,6 +101,15 @@ getFirstBerryName();
 
 // TODO: Write your function here to fetch and log the name and color of the first Item
 
+async function getFirstItem() {
+  const url = "https://pokeapi.co/api/v2/item/1";
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log("First Item Name:", data.name);
+  console.log("First Item Cost:", data.cost);
+}
+
+getFirstItem();
 
 // EXERCISE 5: Fetch and Log the Name of the First Type
 
@@ -85,6 +119,15 @@ getFirstBerryName();
 // Note: use /api/v2/type to GET a type object
 
 // TODO: Write your function here to fetch and log the name of the first Type
+
+async function getFirstType() {
+  const url = "https://pokeapi.co/api/v2/type/1";
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log("First Type Name:", data.name);
+}
+
+getFirstType();
 
 
 // Summary:
